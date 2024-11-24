@@ -1,2 +1,2 @@
-# R_Common_Clinical_Programming_tasks
+# R Common Clinical Programming tasks
 Collection of common clinical programming tasks using R and tidyverse
