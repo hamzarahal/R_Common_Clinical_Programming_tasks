@@ -1,13 +1,12 @@
 ###################################Last dot concept#########################################################
 ################################################################################################################
 
-This R Tidyverse code snippet demonstrates how to create a subset of data containing observations with the highest height for each unique value of the "Sex" variable.
-
-Using the pipe operator %>%, the following operations are performed:
+#This R Tidyverse code snippet demonstrates how to create a subset of data containing observations with the highest height for each unique value of the "Sex" variable.
+#Using the pipe operator %>%, the following operations are performed:
   
-  The arrange function is used to sort the "class" data frame in ascending order by the variables "Sex" and "Height".
-The group_by function is applied to group the data frame by the variable "Sex".
-The slice function is used to extract the last observation within each group, which corresponds to the observation with the highest height for each unique value of "Sex".
+#The arrange function is used to sort the "class" data frame in ascending order by the variables "Sex" and "Height".
+#The group_by function is applied to group the data frame by the variable "Sex".
+#The slice function is used to extract the last observation within each group, which corresponds to the observation with the highest height for each unique value of "Sex".
 The select function is used to choose the variables "Name", "Sex", and "Height" to include in the resulting data frame.
 After executing this code snippet, the "highestheight" data frame will contain the subset of observations with the highest height for each unique value of "Sex".
 
