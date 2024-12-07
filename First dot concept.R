@@ -10,13 +10,13 @@
 #The mutate function is used to create a new variable named "counter" using the row_number function, which assigns a sequential number to each observation within each group.
 #After executing the first code snippet, the "counter" variable in the "class" dataframe will contain the sequential numbers representing the order of observations within each unique value of "Sex."
 
-In the second code snippet:
+#In the second code snippet:
   
-  The arrange function is used to sort the "class" dataframe in ascending order by the variables "Sex" and "Height."
-The group_by function is used to group the observations by the variable "Sex."
-The slice function is used to select the first observation within each group, which corresponds to the observation with the lowest height.
-The select function is used to choose specific variables ("Name," "Sex," and "Height") to include in the resulting dataframe.
-After executing the second code snippet, the "lowestheight" dataframe will contain the subset of observations with the lowest height for each unique value of "Sex."
+#The arrange function is used to sort the "class" dataframe in ascending order by the variables "Sex" and "Height."
+#The group_by function is used to group the observations by the variable "Sex."
+#The slice function is used to select the first observation within each group, which corresponds to the observation with the lowest height.
+#The select function is used to choose specific variables ("Name," "Sex," and "Height") to include in the resulting dataframe.
+#After executing the second code snippet, the "lowestheight" dataframe will contain the subset of observations with the lowest height for each unique value of "Sex."
 
 library(tidyverse)
 class<-tribble(
