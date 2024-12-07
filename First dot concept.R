@@ -1,14 +1,14 @@
 ###################################First dot concept##########################################
 #############################################################################################
 
-These R Tidyverse code snippets demonstrate techniques for creating subsets of data based on specific criteria, including the use of a counter and obtaining the subset of observations with the lowest height.
+#These R Tidyverse code snippets demonstrate techniques for creating subsets of data based on specific criteria, including the use of a counter and obtaining the subset of observations with the lowest height.
 
-In the first code snippet:
+#In the first code snippet:
   
-  The arrange function is used to sort the "class" dataframe in ascending order by the variables "Sex," "Height," "Weight," and "Name."
-The group_by function is used to group the observations by the variable "Sex."
-The mutate function is used to create a new variable named "counter" using the row_number function, which assigns a sequential number to each observation within each group.
-After executing the first code snippet, the "counter" variable in the "class" dataframe will contain the sequential numbers representing the order of observations within each unique value of "Sex."
+#The arrange function is used to sort the "class" dataframe in ascending order by the variables "Sex," "Height," "Weight," and "Name."
+#The group_by function is used to group the observations by the variable "Sex."
+#The mutate function is used to create a new variable named "counter" using the row_number function, which assigns a sequential number to each observation within each group.
+#After executing the first code snippet, the "counter" variable in the "class" dataframe will contain the sequential numbers representing the order of observations within each unique value of "Sex."
 
 In the second code snippet:
   
