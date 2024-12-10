@@ -1,3 +1,7 @@
+#####################################Descriptive statistics for numeric variables#####################################################
+######################################################################################################################################
+
+
 
 #These R Tidyverse code snippets demonstrate how to compute summary statistics on variables in a data frame named "class" using different functions. The results of the summary statistics are stored in separate data frames named "stats01" and "stats02" for different variable configurations.
 
