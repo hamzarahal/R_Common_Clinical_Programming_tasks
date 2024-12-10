@@ -10,11 +10,11 @@
 
 #In the second code snippet:
   
-  The %>% operator is used to pipe the "class" data frame into a sequence of operations.
-The group_by function is used to group the data by the variable "Sex".
-The summarize function is used to compute summary statistics within each group.
-The n function is used to calculate the count of observations, and the mean and sd functions are used to calculate the mean and standard deviation of the variable "Height" within each group.
-After executing the second code snippet, the "stats02" data frame will contain the summary statistics for the variable "Height" in the "class" data frame, grouped by the variable "Sex".
+#The %>% operator is used to pipe the "class" data frame into a sequence of operations.
+#The group_by function is used to group the data by the variable "Sex".
+#The summarize function is used to compute summary statistics within each group.
+#The n function is used to calculate the count of observations, and the mean and sd functions are used to calculate the mean and standard deviation of the variable "Height" within each group.
+#After executing the second code snippet, the "stats02" data frame will contain the summary statistics for the variable "Height" in the "class" data frame, grouped by the variable "Sex".
 
 
 class<-tribble(
