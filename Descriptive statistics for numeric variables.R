@@ -4,11 +4,11 @@
 #In the first code snippet:
   
 #The summarize function is used to compute summary statistics on the variable "Height" in the "class" data frame.
-The first argument specifies the input data frame, which is "class" in this case.
-The subsequent arguments specify the summary statistics to be calculated, including count (n), mean, and standard deviation (sd) of the variable "Height".
-After executing the first code snippet, the "stats01" data frame will contain the summary statistics for the variable "Height" in the "class" data frame.
+#The first argument specifies the input data frame, which is "class" in this case.
+#The subsequent arguments specify the summary statistics to be calculated, including count (n), mean, and standard deviation (sd) of the variable "Height".
+#After executing the first code snippet, the "stats01" data frame will contain the summary statistics for the variable "Height" in the "class" data frame.
 
-In the second code snippet:
+#In the second code snippet:
   
   The %>% operator is used to pipe the "class" data frame into a sequence of operations.
 The group_by function is used to group the data by the variable "Sex".
