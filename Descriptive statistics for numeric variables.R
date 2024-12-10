@@ -1,9 +1,9 @@
 
 #These R Tidyverse code snippets demonstrate how to compute summary statistics on variables in a data frame named "class" using different functions. The results of the summary statistics are stored in separate data frames named "stats01" and "stats02" for different variable configurations.
 
-In the first code snippet:
+#In the first code snippet:
   
-  The summarize function is used to compute summary statistics on the variable "Height" in the "class" data frame.
+#The summarize function is used to compute summary statistics on the variable "Height" in the "class" data frame.
 The first argument specifies the input data frame, which is "class" in this case.
 The subsequent arguments specify the summary statistics to be calculated, including count (n), mean, and standard deviation (sd) of the variable "Height".
 After executing the first code snippet, the "stats01" data frame will contain the summary statistics for the variable "Height" in the "class" data frame.
