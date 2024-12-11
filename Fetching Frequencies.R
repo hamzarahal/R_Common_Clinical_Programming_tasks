@@ -15,7 +15,7 @@
 #The count function is used to compute frequencies of the combination of variables "Sex" and "Age" in a different data frame named "class1".
 #The first argument specifies the input data frame, which is "class1" in this case.
 #The subsequent arguments specify the variables "Sex" and "Age" for the cross-tabulation.
-After executing the second code snippet, the "counts02" data frame will contain the frequency counts for the combinations of "Sex" and "Age" in the "class1" data frame.
+#After executing the second code snippet, the "counts02" data frame will contain the frequency counts for the combinations of "Sex" and "Age" in the "class1" data frame.
 
 class<-tribble(
   ~Name,~Sex,~Age,~Height,~Weight,
