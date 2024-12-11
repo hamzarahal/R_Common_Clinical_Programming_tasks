@@ -1,7 +1,10 @@
 ##################################Fetching Frequencies#####################################
 ###########################################################################################
 
-#These R Tidyverse code snippets demonstrate how to perform frequency analysis on variables in a data frame named "class" using the count function from the dplyr package. The results of the frequency analysis are stored in separate data frames named "counts01" and "counts02" for different variable configurations.
+#These R Tidyverse code snippets demonstrate how to perform frequency analysis on variables in 
+#a data frame named "class" using the count function from the dplyr package. The results of the 
+#frequency analysis are stored in separate data frames named "counts01" and "counts02" for 
+#different variable configurations.
 
 #In the first code snippet:
   
