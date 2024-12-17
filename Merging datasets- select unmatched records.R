@@ -10,6 +10,12 @@
 #The resulting "unmatched" data frame includes observations from the "sex" data frame that do 
 #not have a matching "name" in the "ahw" data frame.
 
+#Finding Unmatched Observations (ahw): The second code snippet reverses the order of the data 
+#frames in the anti_join function. It identifies unmatched observations in the "ahw" data frame 
+#compared to the "sex" data frame. Again, the by argument specifies the "name" variable for 
+#matching. The resulting "unmatched" data frame includes observations from the "ahw" data frame 
+#that do not have a matching "name" in the "sex" data frame.
+
 library(tidyverse)
 
 sex<-tribble(
