@@ -10,9 +10,13 @@
 #observations from both data frames, matching observations where possible and filling in 
 #missing values with NA.
 
-Left Join: The left_join function is used to perform a left join on the "sex" and "ahw" data frames based on the "Name" variable. The resulting data frame, "left," includes all observations from the "sex" data frame and matching observations from the "ahw" data frame. Observations that do not have a match in the "ahw" data frame will have missing values for the "ahw" variables.
+#Left Join: The left_join function is used to perform a left join on the "sex" and "ahw" data 
+#frames based on the "Name" variable. The resulting data frame, "left," includes all 
+#observations from the "sex" data frame and matching observations from the "ahw" data frame. 
+#Observations that do not have a match in the "ahw" data frame will have missing values for 
+#the "ahw" variables.
 
-Right Join: The right_join function is used to perform a right join on the "sex" and "ahw" data frames based on the "Name" variable. The resulting data frame, "right," includes all observations from the "ahw" data frame and matching observations from the "sex" data frame. Observations that do not have a match in the "sex" data frame will have missing values for the "sex" variables.
+#Right Join: The right_join function is used to perform a right join on the "sex" and "ahw" data frames based on the "Name" variable. The resulting data frame, "right," includes all observations from the "ahw" data frame and matching observations from the "sex" data frame. Observations that do not have a match in the "sex" data frame will have missing values for the "sex" variables.
 
 Inner Join: The inner_join function is used to perform an inner join on the "sex" and "ahw" data frames based on the "Name" variable. The resulting data frame, "inner," includes only the observations that have a matching "Name" in both data frames.
 
