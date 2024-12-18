@@ -22,7 +22,9 @@
 #Observations that do not have a match in the "sex" data frame will have missing values for 
 #the "sex" variables.
 
-Inner Join: The inner_join function is used to perform an inner join on the "sex" and "ahw" data frames based on the "Name" variable. The resulting data frame, "inner," includes only the observations that have a matching "Name" in both data frames.
+#Inner Join: The inner_join function is used to perform an inner join on the "sex" and "ahw" 
+#data frames based on the "Name" variable. The resulting data frame, "inner," includes only 
+#the observations that have a matching "Name" in both data frames.
 
 
 library(tidyverse)
