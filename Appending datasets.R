@@ -7,7 +7,7 @@
 
 #By using the bind_rows function, the observations from both "males" and "females" data frames are combined vertically, creating a single data frame that contains data for both males and females.
 
-This technique offers flexibility in data management and is useful when you need to merge datasets with the same variables but different observations. It allows you to consolidate data from multiple sources into a single dataset for further analysis or modeling.
+#This technique offers flexibility in data management and is useful when you need to merge datasets with the same variables but different observations. It allows you to consolidate data from multiple sources into a single dataset for further analysis or modeling.
 
 males<-tribble(
   ~Name,~Sex,~Age,~Height,~Weight,
