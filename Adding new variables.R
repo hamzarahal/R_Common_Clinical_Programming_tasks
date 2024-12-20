@@ -6,11 +6,11 @@
 
 #In the first code snippet:
   
-  The mutate function from the dplyr package is used to create a modified data frame named "dm02" based on the "dm" data frame.
-The mutate function allows for the creation of new variables while preserving the existing variables.
-The new variable "agemon" is created by multiplying the "age" variable by 12.
-The new variable "group" is created and assigned a constant value of 1 for all observations.
-In the second code snippet:
+#The mutate function from the dplyr package is used to create a modified data frame named "dm02" based on the "dm" data frame.
+#The mutate function allows for the creation of new variables while preserving the existing variables.
+#The new variable "agemon" is created by multiplying the "age" variable by 12.
+#The new variable "group" is created and assigned a constant value of 1 for all observations.
+#In the second code snippet:
   
   The mutate function is used to create a modified data frame named "dm02" based on the "dm" data frame.
 The case_when function is used within the mutate function to perform conditional assignments for the new variable "agegr1."
