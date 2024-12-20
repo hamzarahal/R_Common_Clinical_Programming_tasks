@@ -15,7 +15,7 @@
 #The mutate function is used to create a modified data frame named "dm02" based on the "dm" data frame.
 #The case_when function is used within the mutate function to perform conditional assignments for the new variable "agegr1."
 #The case_when function allows for multiple conditional statements to be evaluated sequentially.
-The first conditional statement checks if the "age" variable is greater than or equal to 60. If true, the value ">= 60 Years" is assigned to "agegr1."
+#The first conditional statement checks if the "age" variable is greater than or equal to 60. If true, the value ">= 60 Years" is assigned to "agegr1."
 The second conditional statement checks if the "age" variable is between 20 and 59 (inclusive). If true, the value "20 - < 60 Years" is assigned to "agegr1."
 The third conditional statement checks if the "age" variable is less than 20. If true, the value "< 20 Years" is assigned to "agegr1."
 These R Tidyverse code snippets demonstrate how to use the mutate function to create new variables in the "dm" data frame. The first snippet creates new variables "agemon" and "group," while the second snippet creates a new variable "agegr1" based on different age groupings using the case_when function.
