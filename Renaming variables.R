@@ -1,3 +1,6 @@
+#############################################################################Renaming variables###########################################
+##########################################################################################################################################
+
 #The provided R Tidyverse code snippet creates a new data frame named "renamed" by renaming variables in the existing data frame "class."
 
 #The rename function is used to specify the renaming of variables. In this case, the variable "Age" is renamed to "Age_years" and the variable "Height" is renamed to "Height_in."
