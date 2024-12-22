@@ -2,7 +2,7 @@
 
 #The rename function is used to specify the renaming of variables. In this case, the variable "Age" is renamed to "Age_years" and the variable "Height" is renamed to "Height_in."
 
-The rename function takes two arguments: the first argument is the data frame, and the subsequent arguments are the old variable names followed by the new variable names.
+#The rename function takes two arguments: the first argument is the data frame, and the subsequent arguments are the old variable names followed by the new variable names.
 
 By using the rename function, the variables in the "class" data frame are renamed, and the resulting data frame is assigned to the "renamed" object.
 
