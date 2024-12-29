@@ -19,7 +19,7 @@
 #This R Tidyverse code snippet showcases how to create a new data frame named "males" that 
 #includes only the observations where the sex is "M," while excluding the "Sex" variable. 
 #This enables further analysis and manipulation of a subset of data containing only male 
-individuals.
+#individuals.
 
 library(tidyverse)
 
