@@ -1,6 +1,7 @@
 #########################################Subset observations and variables####################################################
 ################################################################################################################
 
+#The provided R Tidyverse code snippet creates a new data frame named "males" by filtering observations from the existing data frame "class" based on a specific condition and excluding a variable from the resulting data frame.
 
 library(tidyverse)
 
