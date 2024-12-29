@@ -1,7 +1,15 @@
 #########################################Subset observations and variables####################################################
 ################################################################################################################
 
-#The provided R Tidyverse code snippet creates a new data frame named "males" by filtering observations from the existing data frame "class" based on a specific condition and excluding a variable from the resulting data frame.
+#The provided R Tidyverse code snippet creates a new data frame named "males" by filtering 
+#observations from the existing data frame "class" based on a specific condition and excluding 
+#a variable from the resulting data frame.
+
+#The %>% operator, also known as the pipe operator, is used to chain multiple operations together 
+#in a concise manner.
+
+#The filter function is used to select only those rows from the "class" data frame where the 
+#value of the "Sex" variable is "M," indicating males.
 
 library(tidyverse)
 
