@@ -11,6 +11,12 @@
 #The filter function is used to select only those rows from the "class" data frame where the 
 #value of the "Sex" variable is "M," indicating males.
 
+#The select function, combined with the - sign, is used to exclude the "Sex" variable from the resulting "males" data frame.
+
+By using the pipe operator, the filtered and selected data frame is directly assigned to the "males" object.
+
+This R Tidyverse code snippet showcases how to create a new data frame named "males" that includes only the observations where the sex is "M," while excluding the "Sex" variable. This enables further analysis and manipulation of a subset of data containing only male individuals.
+
 library(tidyverse)
 
 class<-tribble(
