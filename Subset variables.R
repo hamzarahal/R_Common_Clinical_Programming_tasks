@@ -6,6 +6,9 @@
 #The first code snippet demonstrates how to create a new data frame named "subset" by selecting 
 #specific variables ("Name," "Sex," and "Age") from an existing data frame called "class" using the select function.
 
+#The second code snippet creates a new data frame named "subset" by excluding specific variables 
+#("Height" and "Weight") from the original "class" data frame using the select function.
+
 library(tidyverse)
 
 class<-tribble(
