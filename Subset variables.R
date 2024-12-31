@@ -1,6 +1,8 @@
 #############################Subset variables################################################
 #############################################################################################
 
+#The following R Tidyverse code snippets showcase different techniques to create subsets of data frames by selecting or excluding specific variables based on various criteria.
+
 
 library(tidyverse)
 
