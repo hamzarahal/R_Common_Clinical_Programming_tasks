@@ -3,6 +3,8 @@
 
 #The following R Tidyverse code snippets showcase different techniques to create subsets of data frames by selecting or excluding specific variables based on various criteria.
 
+#The first code snippet demonstrates how to create a new data frame named "subset" by selecting 
+#specific variables ("Name," "Sex," and "Age") from an existing data frame called "class" using the select function.
 
 library(tidyverse)
 
