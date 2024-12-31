@@ -9,6 +9,10 @@
 #The second code snippet creates a new data frame named "subset" by excluding specific variables 
 #("Height" and "Weight") from the original "class" data frame using the select function.
 
+#In the third code snippet, a new data frame named "subset" is created by excluding variables from the "class" data frame based on a pattern. The select function, combined with the starts_with function, removes variables that start with either "H" or "W" from the resulting "subset" data frame.
+
+#The fourth code snippet also creates a new data frame named "subset" by excluding variables from the "class" data frame based on a pattern. Here, the select function, along with the ends_with function, removes variables that end with the letter "t" from the resulting "subset" data frame.
+
 library(tidyverse)
 
 class<-tribble(
