@@ -13,6 +13,9 @@
 
 #The fourth code snippet also creates a new data frame named "subset" by excluding variables from the "class" data frame based on a pattern. Here, the select function, along with the ends_with function, removes variables that end with the letter "t" from the resulting "subset" data frame.
 
+#These code snippets demonstrate the flexibility of the select function in the R Tidyverse, 
+#allowing for precise control over variable selection and exclusion when creating subsets of data frames. These techniques facilitate data management, analysis, and further processing by working with focused subsets of the original data.
+
 library(tidyverse)
 
 class<-tribble(
