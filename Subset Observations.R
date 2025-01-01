@@ -1,6 +1,8 @@
 ##################################Subset Observations#####################################################
 #######################################################################################
 
+#The provided R Tidyverse code snippets demonstrate how to create new data frames by filtering an existing data frame based on specific conditions.
+
 library(tidyverse)
 
 class<-tribble(
