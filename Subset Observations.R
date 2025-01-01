@@ -7,6 +7,8 @@
 
 #In the second snippet, a data frame named "preteen" is created by filtering the "class" data frame to include only rows where the value of the "Age" variable is either 11 or 12. This is done using the filter function and the %in% operator.
 
+#Both code snippets showcase the power of the filter function in extracting specific subsets of data from a data frame based on given conditions. This allows for targeted analysis and further processing of the filtered data.
+
 library(tidyverse)
 
 class<-tribble(
