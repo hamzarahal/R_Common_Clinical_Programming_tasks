@@ -3,6 +3,8 @@
 
 #The provided R Tidyverse code snippets demonstrate how to create new data frames by filtering an existing data frame based on specific conditions.
 
+#In the first snippet, a data frame named "males" is created by filtering the "class" data frame to include only rows where the value of the "Sex" variable is "M", indicating males. This is achieved using the filter function from the dplyr package.
+
 library(tidyverse)
 
 class<-tribble(
