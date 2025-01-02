@@ -1,6 +1,8 @@
 #####################################Create a copy of an existing dataset#################################
 ###########################################################################################################
 
+#This code snippet demonstrates how to create a new data frame by duplicating an existing one in R. It allows you to work with a separate copy of the data frame while keeping the original intact.
+
 library(tidyverse)
 
 class<-tribble(
