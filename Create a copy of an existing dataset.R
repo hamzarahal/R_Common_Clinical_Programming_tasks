@@ -5,6 +5,8 @@
 
 #The R Tidyverse code snippet assigns the data frame "class" to a new data frame named "new_class" using the assignment operator (<- or =).
 
+#The existing data frame "class" is duplicated, and the resulting duplicate is stored in the new data frame "new_class".
+
 library(tidyverse)
 
 class<-tribble(
