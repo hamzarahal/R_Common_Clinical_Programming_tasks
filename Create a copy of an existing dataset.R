@@ -3,6 +3,8 @@
 
 #This code snippet demonstrates how to create a new data frame by duplicating an existing one in R. It allows you to work with a separate copy of the data frame while keeping the original intact.
 
+#The R Tidyverse code snippet assigns the data frame "class" to a new data frame named "new_class" using the assignment operator (<- or =).
+
 library(tidyverse)
 
 class<-tribble(
