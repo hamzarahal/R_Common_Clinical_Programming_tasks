@@ -7,6 +7,8 @@
 
 #The existing data frame "class" is duplicated, and the resulting duplicate is stored in the new data frame "new_class".
 
+#This operation creates a separate copy of the data frame, so any changes made to "new_class" will not affect the original "class" data frame.
+
 library(tidyverse)
 
 class<-tribble(
